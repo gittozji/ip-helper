@@ -34,7 +34,7 @@ public class Controller {
         };
 
         ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
-        service.scheduleAtFixedRate(runnable, 1, 60, TimeUnit.MINUTES);
+        service.scheduleAtFixedRate(runnable, 1, 1, TimeUnit.MINUTES);
     }
 
 }
